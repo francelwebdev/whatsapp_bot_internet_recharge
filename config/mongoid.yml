@@ -11,5 +11,6 @@ production:
   clients:
     default:
       uri: mongodb+srv://user:pass@yourcluster.mongodb.net/blog_development?retryWrites=true&w=majority
+      uri: mongodb+srv://francelwebdev:Hello091092U!@whatsapp-bot-internet-r.mmmo6.mongodb.net/test
       options:
         server_selection_timeout: 5
