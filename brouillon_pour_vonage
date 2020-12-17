@@ -1,0 +1,87 @@
+require 'rubygems'
+require 'twilio-ruby'
+
+account_sid = 'AC6cad709be00e20540d361df896ff5713'
+auth_token = '3746774ccac740825fc1b53a91f7eded'
+@client = Twilio::REST::Client.new(account_sid, auth_token)
+
+message = @client.messages.create(
+                             body: 'Hello! This is an editable text message. You are free to change it and write whatever you like.',
+                             from: 'whatsapp:+14155238886',
+                             to: 'whatsapp:+22996619073'
+                           )
+
+puts message.sid
+
+
+
+
+
+
+
+
+
+{
+    "sid": "SM11a6a06e9f3f4a75b299ba07d0a8b2a6",
+    "date_created": "Tue, 01 Dec 2020 16:43:13 +0000",
+    "date_updated": "Tue, 01 Dec 2020 16:43:13 +0000",
+    "date_sent": null,
+    "account_sid": "AC6cad709be00e20540d361df896ff5713",
+    "to": "whatsapp:+22996619073",
+    "from": "whatsapp:+14155238886",
+    "messaging_service_sid": null,
+    "body": "Hello! This is an editable text message. You are free to change it and write whatever you like.",
+    "status": "queued",
+    "num_segments": "1",
+    "num_media": "0",
+    "direction": "outbound-api",
+    "api_version": "2010-04-01",
+    "price": null,
+    "price_unit": null,
+    "error_code": null,
+    "error_message": null,
+    "uri": "/2010-04-01/Accounts/AC6cad709be00e20540d361df896ff5713/Messages/SM11a6a06e9f3f4a75b299ba07d0a8b2a6.json",
+    "subresource_uris": {
+        "media": "/2010-04-01/Accounts/AC6cad709be00e20540d361df896ff5713/Messages/SM11a6a06e9f3f4a75b299ba07d0a8b2a6/Media.json"
+    }
+}
+
+
+------------------------------------------------------
+
+beccb12e
+
+WhatsApp
+
+curl -X POST https://messages-sandbox.nexmo.com/v0.1/messages \
+-u 'beccb12e:rURlSGkB9M1RXV11' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-d '{
+    "from": { "type": "whatsapp", "number": "14157386170" },
+    "to": { "type": "whatsapp", "number": "$TO_NUMBER" },
+    "message": {
+      "content": {
+        "type": "text",
+        "text": "This is a WhatsApp Message sent from the Messages API"
+      }
+    }
+  }'
+
+
+  Facebook Messenger
+
+  curl -X POST https://messages-sandbox.nexmo.com/v0.1/messages \
+-u 'beccb12e:rURlSGkB9M1RXV11' \
+-H 'Content-Type: application/json' \
+-H 'Accept: application/json' \
+-d '{
+    "from": { "type": "messenger", "id": "107083064136738" },
+    "to": { "type": "messenger", "id": "$FB_RECIPIENT_ID" },
+    "message": {
+      "content": {
+        "type": "text",
+        "text": "This is a Facebook Messenger Message sent from the Messages API"
+      }
+    }
+  }'

@@ -1,0 +1,71 @@
+Please enter the last four digits of your credit card number, followed
+        by the pound sign.
+        
+        
+        
+        Demo Link
+Text "hi" to 616.344.5566
+
+https://wa.me/14155238886/?text=join%20chicken%2Dmix
+
+
+## How to use it
+
+To use the bot you obviosly got to have whatsapp messenger installed either on pc or mobile.
+If that is all set, click this [link](https://wa.me/14155238886/?text=join%20chicken%2Dmix) below to join my twilio sandbox and enjoy.
+
+
+
+demander les horaires d'ouverture
+demander s'il y as un produit en stock
+
+
+demande moi tel, tel chose en te servant des options suivant. C'est comme ça qu'on m'utulise.
+
+chatbot whatsapp pour interoger lapi de kkyapay pour lui demander comme par exemple le chiffre d'affaire faire aujourdhui, le nombre de nouveau client arrivé aujourdhui (au lieu daller sur la plateforme voir les startistique) .
+
+
+Plateformes en ligne de création de chatbot
+- Manychat
+- Wit.ai
+- Flow.ai
+
+
+
+
+------------------
+
+
+ # "
+            # Hi/Hello there!
+            # Hi <First Name>! Welcome to
+            # Original Coast Clothing
+            # where you'll find styles for
+            # every occasion.
+            # At any time, use the menu
+            # below to navigate through the
+            # features
+            # What we can do to help you
+            # today?
+            
+            # Great! Let's get started.
+            # First, is there an
+            # occasion in mind?
+            
+            # What type of payment method do you want to use?
+            # "
+
+
+
+
+
+-----------------------------
+
+account/two-factor
+
+Google Spreadsheet
+
+welcome back, nice to meet you
+
+
+https://github.com/piotrmurach/finite_machine

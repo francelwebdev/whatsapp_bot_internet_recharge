@@ -1,0 +1,15 @@
+development:
+  clients:
+    default:
+      database: whatsapp_bot_development
+      hosts:
+        - localhost:27017
+      options:
+        server_selection_timeout: 1
+
+production:
+  clients:
+    default:
+      uri: mongodb+srv://user:pass@yourcluster.mongodb.net/blog_development?retryWrites=true&w=majority
+      options:
+        server_selection_timeout: 5
